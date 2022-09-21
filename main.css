@@ -1,0 +1,169 @@
+@font-face {
+    font-family: normal-text;
+    src: url(./assets/fonts/optimist_normal.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ************************************ */
+/***************general*****************  */
+.link {
+    font-size: 16px;
+    font-family: normal-text
+    text-decoration: none;
+    color: black;
+}
+.link--body {
+    font-weight: 700;
+    line-height: 24px;
+    color: #1c2b33;
+}
+.section {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-header {
+    font-size: 48px;
+    font-weight: 400;
+    color: #1c2b33;
+    line-height: 58px;
+    width: fit-content;
+    font-family: 'Inter', sans-serif;
+}
+.sub-header {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 43px;
+    color:#1c2b33;
+    font-family: 'Inter', sans-serif;
+}
+.object-container {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ************************************ */
+/***************HEADER*****************  */
+
+.hamburger, .hamburger::before, .hamburger::after {
+    width: 20px;
+    border-bottom: 3px solid #1c2b33;
+    position: relative;
+}
+.hamburger::before, .hamburger::after {
+    content: "";
+    position: absolute;
+    display: block;
+
+}
+.hamburger::after {
+    top: 6px;
+}
+.hamburger::before {
+    top: -6px;
+}
+
+.logo {
+    width: 90px;
+}
+.logo__image {
+    width: 100%;
+}
+.header__logo {
+    margin-right: 80px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    justify-content: space-between;
+}
+.header__list {
+    display: none;
+    list-style: none;
+    gap: 24px;
+    margin-right: auto;
+}
+.header__link--hidden {
+    display: none;
+}
+.header__icon {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-right: solid;
+    border-bottom: solid;
+    transform: rotate(45deg);
+    position: relative;
+    top: -3px;
+    margin-left: 6px;
+}
+
+.header__shop {
+    display: flex;
+    align-items: center;
+}
+.bag-icon {
+    padding-left: 16px;
+    margin-left: 16px;
+}
+@media (min-width: 1024px) {
+    .header__list {
+        display: flex;
+    }
+    .header__link--hidden {
+        display: block;
+    }
+    .hamburger {
+        display: none;
+    }
+    .bag-icon {
+        border-left: 1px solid #dee3e9;
+    }
+}
+
+/* ************************************ */
+/***************banner*****************  */
+.banner {
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.banner__header {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+.banner__link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 56px;
+}
+.banner__image {
+    width: 100%;
+}
+.about__logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.about__sub-header {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+} 
