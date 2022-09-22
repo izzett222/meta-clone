@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./main.css" />
@@ -52,14 +52,16 @@
     </header>
     <main>
       <section class="section banner">
-        <h1 class="main-header banner__header">
-          Bringing people closer every day
-        </h1>
-        <a href="#" class="link link--body banner__link"
-          >Learn about our mission</a
-        >
-        <div class="object-container">
-          <img src="./assets/banner.jpeg" class="banner__image" alt="#" />
+        <div>
+          <h1 class="main-header banner__header">
+            Bringing people closer every day
+          </h1>
+          <a href="#" class="link link--body banner__link"
+            >Learn about our mission</a
+          >
+          <div class="object-container">
+            <img src="./assets/banner.jpeg" class="banner__image" alt="#" />
+          </div>
         </div>
       </section>
       <section class="section about">
@@ -71,6 +73,164 @@
           and grow businesses.
         </h2>
       </section>
+      <section class="experience">
+        <h2 class="sub-header experience__sub-header">
+          The future of digital connection
+        </h2>
+        <p class="text experience__text">
+          We’re moving beyond 2D screens and into immersive experiences in the
+          metaverse, helping create the next evolution of social technology.
+        </p>
+        <a href="#" class="link experience__link link--body"
+          >Experience the metaverse</a
+        >
+        <div class="section experience__video-wrapper">
+          <video src="./assets/bike.mp4" class="experience__video"></video>
+        </div>
+        <div class="section experience__small-title">
+          <p class="text">More about the metaverse</p>
+        </div>
+        <ul class="section experience__list card__list">
+          <li class="card__item experience__item">
+            <div class="card__image experience__image">
+              <img src="./assets/exp1.jpeg" alt="" />
+            </div>
+            <p class="text text--big card__item-text experience__item-text">
+              What is the metaverse?
+            </p>
+          </li>
+          <li class="card__item experience__item">
+            <div class="card__image experience__image">
+              <img src="./assets/exp2.jpeg" alt="" />
+            </div>
+            <p class="text text--big card__item-text experience__item-text">
+              How we’re building the metaverse responsibly
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="privacy">
+        <div class="section">
+          <h2 class="sub-header privacy__sub-header">
+            Keeping people safe and making a positive impact
+          </h2>
+          <a href="#" class="link link--body privacy__link"
+            >Learn about our actions</a
+          >
+        </div>
+        <div class="section privacy__info">
+          <div class="privacy__details">
+            <h2 class="sub-header--small privacy__details-header">
+              Prioritizing privacy and security
+            </h2>
+            <p class="text privacy__text">
+              We’re building social experiences that keep your account secure
+              and enable you to make choices around how your data is used.
+            </p>
+            <a href="#" class="link link--body privacy__details-link"
+              >Learn more</a
+            >
+          </div>
+          <div class="privacy__image">
+            <img src="./assets/privacy.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="section privacy__small-header">
+          <p class="text">More actions we're taking</p>
+        </div>
+        <ul class="section card__list">
+          <li class="card__item privacy__item">
+            <div class="card__image">
+              <img src="./assets/priv1.jpeg" alt="" />
+            </div>
+            <p class="text text--big card__item-text">
+              Preparing for elections
+            </p>
+          </li>
+          <li class="card__item privacy__item">
+            <div class="card__image">
+              <img src="./assets/priv2.jpeg" alt="" />
+            </div>
+            <p class="text text--big card__item-text">
+              Promoting safety and expression
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <div class="section">
+          <p class="text">Latest News</p>
+          <ul class="news__list">
+            <li class="news__item">
+              <div class="news__image">
+                <img src="./assets/news1.jpeg" alt="" />
+              </div>
+              <h3 class="news__item-title">
+                Introducing Community Chats: Connecting Your Community in Real
+                Time on Messenger and Facebook
+              </h3>
+              <p class="text news__item-text">
+                Community Chats blend Messenger and Facebook Groups to let
+                people connect when, where and how they want.
+              </p>
+              <a href="" class="link link--body">Read more</a>
+            </li>
+            <li class="news__item">
+              <div class="news__image">
+                <img src="./assets/news2.jpeg" alt="" />
+              </div>
+              <h3 class="news__item-title">
+                Become a Quarterback in VR With NFL PRO ERA
+              </h3>
+              <p class="text news__item-text">
+                Lace up your cleats in virtual reality as an NFL quarterback on
+                Meta Quest 2.
+              </p>
+              <a href="" class="link link--body">Read more</a>
+            </li>
+            <li class="news__item">
+              <div class="news__image">
+                <img src="./assets/news3.jpeg" alt="" />
+              </div>
+              <h3 class="news__item-title">
+                Announcing the PyTorch Foundation to Accelerate Progress in AI
+                Research
+              </h3>
+              <p class="text news__item-text">
+                The PyTorch Foundation will help maintain open collaboration and
+                standardize resources for AI research.
+              </p>
+              <a href="" class="link link--body">Read more</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="section footer__items">
+        <div class="footer__social">
+          <div class="logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </div>
+          <div class="footer__icons">
+            <div class="footer__icon">
+              <img src="./assets/instagram.png" alt="">
+            </div>
+            <div class="footer__icon">
+              <img src="./assets/linkedin.png" alt="">
+            </div>
+            <div class="footer__icon">
+              <img src="./assets/twitter.png" alt="">
+            </div>
+            <div class="footer__icon">
+              <img src="./assets/youtube.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="footer__links">
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
